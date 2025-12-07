@@ -17,7 +17,7 @@ export default function Home() {
     },
     {
       title: "Children And Families",
-      image: "/children.png",
+      image: "/Children.png",
     },
     {
       title: "Mental Health Support",
