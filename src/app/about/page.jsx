@@ -84,7 +84,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="p-2 flex flex-col gap-2 sm:gap-20 bg-gradient-to-r from-[#FBFBFB] to-[#EFF3D0]">
+    <div className="p-2 flex flex-col gap-2 sm:gap-6 bg-gradient-to-r from-[#FBFBFB] to-[#EFF3D0]">
       {/* HEADER */}
       <div className="relative bg-[#98C44B] w-full py-28 md:py-36 rounded-lg flex flex-col items-center bg-[url('/Line2.png')] bg-no-repeat bg-left bg-cover">
         <p className="text-center font-semibold text-4xl sm:text-6xl md:text-7xl text-[#003A11] leading-tight">
@@ -124,7 +124,7 @@ export default function Navbar() {
       </div>
 
       {/* TEAM SECTION */}
-      <section className="w-full py-4 md:py-16 px-6 md:px-16 ">
+      <section className="w-full py-0 md:py-2 px-6 md:px-16 ">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
           {/* LEFT SIDE */}
           <div>
@@ -199,7 +199,7 @@ export default function Navbar() {
       </section>
 
       {/* TRAINING & QUALIFICATION */}
-      <section className="w-full py-2 sm:py-16 px-6 md:px-16">
+      <section className="w-full py-2 sm:py-8 px-6 ">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* IMAGE CARD */}
           <div className="relative rounded-2xl overflow-hidden shadow-xl h-[400px] sm:h-[500px]">

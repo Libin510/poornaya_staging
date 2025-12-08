@@ -6,8 +6,12 @@ import {
   CheckCircle2,
   MoveRight,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function Services() {
+
+    const router = useRouter();
+  
   const services = [
     {
       title: "Functional Behaviour Assessments",
@@ -84,7 +88,7 @@ export default function Services() {
       </div>
 
       {/* INTRO SECTION */}
-      <section className="w-full px-4 sm:px-6 md:px-12 sm:my-12 md:my-16">
+      <section className="w-full px-4 sm:px-6 md:px-12 ">
         <div className="text-center max-w-4xl mx-auto">
           <p className="font-medium text-xl md:text-3xl leading-relaxed">
             We Deliver Positive Behaviour Support For Children, Young People,
@@ -123,7 +127,11 @@ export default function Services() {
                       {service.description}
                     </p>
 
-                    <button className="bg-[#003A11] w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center group-hover:scale-110 transition-all">
+                    <button
+                    onClick={()=>{
+router.push('/contact');
+                    }}
+                     className="bg-[#003A11] cursor-pointer w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center group-hover:scale-110 transition-all">
                       <ArrowUpRight className="w-4 md:w-5 h-4 md:h-5 text-white" />
                     </button>
                   </div>

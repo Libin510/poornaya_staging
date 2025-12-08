@@ -19,24 +19,24 @@ export default function contact() {
         <div className="max-w-7xl mx-auto relative">
 
           {/* ABSOLUTE IMAGE - NOW RESPONSIVE */}
-          <div className="absolute -top-10 sm:-top-16 md:-top-36 
+          <div className="absolute -top-10 sm:-top-16 md:-top-16 
           left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-0 flex justify-center">
             <img
               src="/phone.png"
               alt="Phone"
-              className="object-contain w-40 hidden sm:block sm:w-52 md:w-64 lg:w-72"
+              className="object-contain w-40 hidden lg:block sm:w-52 md:w-64 lg:w-72"
             />
           </div>
 
           {/* HEADING */}
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 
-             leading-snug text-center max-w-2xl mx-auto sm:mt-40 lg:mt-20">
+             leading-snug text-center max-w-2xl mx-auto ">
             Whether You're An Individual, Family Member, Or Organisation —
             We're Just A Message Away
           </h2>
 
           {/* FORM GRID RESPONSIVE FIX */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-0 sm:mt-5">
             <div></div>
 
             <div className="p-6 sm:p-8 md:p-12 bg-white rounded-2xl shadow-md col-span-2">

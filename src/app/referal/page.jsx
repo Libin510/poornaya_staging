@@ -49,7 +49,7 @@ export default function referal() {
   ];
 
   return (
-    <div className="flex flex-col gap-4 sm:gap-16 p-2 bg-gradient-to-r from-[#FBFBFB] to-[#EFF3D0]">
+    <div className="flex flex-col gap-4 sm:gap-6 p-2 bg-gradient-to-r from-[#FBFBFB] to-[#EFF3D0]">
       {/* HEADER */}
       <div className="bg-[#98C44B] w-full py-20 sm:py-28 md:py-36 rounded-lg bg-[url('/referalLine.png')] bg-no-repeat bg-bottom left bg-cover">
         <p className="text-center font-semibold text-4xl sm:text-5xl md:text-6xl text-[#003A11]">
