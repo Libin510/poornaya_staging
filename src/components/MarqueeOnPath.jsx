@@ -36,7 +36,7 @@ export default function MarqueeOnPath({
 
   return (
     <section
-  className="relative py-20 bg-stone-100 overflow-hidden
+  className="relative py-20  overflow-hidden
   bg-[url('/FLOWER.png')] bg-no-repeat bg-center
   bg-contain "
 >
