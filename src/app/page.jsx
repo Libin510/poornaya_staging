@@ -103,7 +103,7 @@ export default function Home() {
             >
               <span
                 className="
-    bg-white rounded-lg sm:rounded-tr-[18px] p-2 relative inline-block pr-4
+    bg-white rounded-tr-lg sm:rounded-tr-[18px] p-2 relative inline-block pr-4
 
     /* RIGHT BOTTOM CURVE */
     after:content-[''] after:absolute after:bottom-1 after:sm:bottom-2.5 after:-right-4
@@ -121,7 +121,7 @@ export default function Home() {
                 Where Positive
               </span>
               <br />
-              <span className="bg-white rounded-lg sm:rounded-tr-[18px] p-2 relative  after:content-[''] after:absolute after:bottom-0 after:sm:bottom-1 after:-right-4 after:w-4 after:h-4 after:bg-[radial-gradient(circle_at_top_left,transparent_70%,white_70%)] after:rotate-90">
+              <span className="bg-white rounded-tr-lg sm:rounded-tr-[18px] p-2 relative  after:content-[''] after:absolute after:bottom-0 after:sm:bottom-1 after:-right-4 after:w-4 after:h-4 after:bg-[radial-gradient(circle_at_top_left,transparent_70%,white_70%)] after:rotate-90">
                 Change Feels Safe
               </span>
             </p>
